@@ -77,12 +77,12 @@ This project requires separate setups for the **frontend** and **backend**. Foll
    - Create a `.env` file in the backend directory.
    - Add MongoDB URI, email server details for OTP, and JWT secrets:
      ```plaintext
-     MONGODB_URI=your_mongodb_uri
-     JWT_SECRET=your_jwt_secret
-     EMAIL_HOST=your_email_host
-     EMAIL_PORT=your_email_port
-     EMAIL_USER=your_email_user
-     EMAIL_PASS=your_email_password
+     PORT=5000
+     Db_url=""
+     Gmail=""
+     Password="Special Password for nodemailer"
+     Activation_sec=yutey
+     Jwt_sec=ertert
      ```
 
 4. **Run the Backend Server**:
@@ -131,7 +131,7 @@ This project requires separate setups for the **frontend** and **backend**. Foll
 
 ## Usage
 
-1. Open your browser and navigate to `http://localhost:3000/`.
+1. Open your browser and navigate to `http://localhost:5173/`.
 2. Enter your email to receive an OTP, then verify to log in.
 3. Begin chatting with the bot on the main chat interface after logging in.
 4. View previous chat history or start a new conversation as needed.
