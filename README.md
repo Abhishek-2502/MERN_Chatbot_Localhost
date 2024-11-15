@@ -156,7 +156,6 @@ We welcome contributions to improve MERN Chatbot! Follow these steps to get star
 5. Open a pull request.
 
 ##  Authors
-Developed by:
 - **Abhishek Rajput** - [GitHub](https://github.com/Abhishek-2502)
 - **Aaryan Dhawan** - [GitHub](https://github.com/dhawanaaaryan)
 - **Arnav Jain** - [GitHub](https://github.com/Arnavjain2503)
