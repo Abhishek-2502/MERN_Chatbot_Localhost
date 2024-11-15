@@ -5,6 +5,8 @@ import toast from "react-hot-toast";
 
 const ChatContext = createContext();
 
+const Gemini_API="https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyB7AYQghVvpWb5bbilLDA1_DAe_PVi4U4M"
+
 export const ChatProvider = ({ children }) => {
   const [messages, setMessages] = useState([]);
   const [prompt, setPrompt] = useState("");
@@ -16,7 +18,7 @@ export const ChatProvider = ({ children }) => {
     setPrompt("");
     try {
       const response = await axios({
-        url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyB7AYQghVvpWb5bbilLDA1_DAe_PVi4U4M",
+        url: Gemini_API,
         method: "post",
         data: {
           contents: [{ parts: [{ text: prompt }] }],
