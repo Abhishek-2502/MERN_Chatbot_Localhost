@@ -65,7 +65,7 @@ This project requires separate setups for the **frontend** and **backend**. Foll
 
 1. **Navigate to the Backend Directory**:
    ```bash
-   cd chatserver
+   cd MERN_Chatbot_Backend_Test
    ```
 
 2. **Install Dependencies**:
@@ -94,7 +94,7 @@ This project requires separate setups for the **frontend** and **backend**. Foll
 
 1. **Navigate to the Frontend Directory**:
    ```bash
-   cd chat-frontend
+   cd MERN_Chatbot_Frontend_Test
    ```
 
 2. **Install Dependencies**:
