@@ -107,6 +107,11 @@ This project requires separate setups for the **frontend** and **backend**. Foll
      ```javascript
      const server = "http://localhost:5000";
      ```
+4. **Set Gemini URL**:
+   - In `src/context/ChatContext.jsx`, set the `Gemini_API` constant to your Gemini API:
+     ```javascript
+     const Gemini_API = "api";
+     ```
 
 4. **Run the Frontend Application**:
    ```bash
